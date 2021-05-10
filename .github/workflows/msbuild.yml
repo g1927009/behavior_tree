@@ -45,4 +45,4 @@ jobs:
     - name: Test
       id: run_vstest
       working-directory: ${{env.GITHUB_WORKSPACE}}/src/x64/${{env.BUILD_CONFIGURATION}}
-      run: vstest.console ./gtest_main.dll
+      run: vstest.console ./BehaviorTreeTest.dll
