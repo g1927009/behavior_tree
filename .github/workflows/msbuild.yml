@@ -35,14 +35,14 @@ jobs:
       uses: Malcolmnixon/Setup-VSTest@v4
 
     - name: VSTest
-      run: vstest.console src/x64/${{env.BUILD_CONFIGURATION}}/gtest_main.dll
+      run: vstest.console src/x64/${{env.BUILD_CONFIGURATION}}/BehaviorTreeTest.dll
 
-    - name: Setup VSTest path
-      # Step 3.1: locate vstest.console.exe and add to PATH
-      uses: darenm/Setup-VSTest@v1
-      id: setup_vstest
+#    - name: Setup VSTest path
+#      # Step 3.1: locate vstest.console.exe and add to PATH
+#      uses: darenm/Setup-VSTest@v1
+#      id: setup_vstest
   
-    - name: Test
-      id: run_vstest
-      working-directory: ${{env.GITHUB_WORKSPACE}}/src/x64/${{env.BUILD_CONFIGURATION}}
-      run: vstest.console ./BehaviorTreeTest.dll
+#    - name: Test
+#      id: run_vstest
+#      working-directory: ${{env.GITHUB_WORKSPACE}}/src/x64/${{env.BUILD_CONFIGURATION}}
+#      run: vstest.console ./BehaviorTreeTest.dll
