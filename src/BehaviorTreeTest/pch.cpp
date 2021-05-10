@@ -1,6 +1,5 @@
-//
-// pch.cpp
-// Include the standard header and generate the precompiled header.
-//
+﻿// pch.cpp: プリコンパイル済みヘッダーに対応するソース ファイル
 
 #include "pch.h"
+
+// プリコンパイル済みヘッダーを使用している場合、コンパイルを成功させるにはこのソース ファイルが必要です。

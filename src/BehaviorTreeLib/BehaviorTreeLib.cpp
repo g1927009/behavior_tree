@@ -3,6 +3,7 @@
 
 #include "pch.h"
 #include "framework.h"
+#include "behavior_tree.h"
 
 // TODO: これは、ライブラリ関数の例です
 void fnBehaviorTreeLib()

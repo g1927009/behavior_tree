@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include "behavior_tree.h"
 
 int main()
 {
