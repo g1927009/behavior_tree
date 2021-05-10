@@ -12,6 +12,7 @@ namespace BehaviorTreeTest
 		
 		TEST_METHOD(TestMethod1)
 		{
+			std::shared_ptr<BehaviorTree> pTree(new BehaviorTree());
 		}
 	};
 }
