@@ -8,6 +8,7 @@ Behavior tree の非常に簡単な部分を作成しました。
 * 「src/BehaviorTreeTest」ディレクトリの「BehaviorTreeTest.cpp」ファイルを書き替えてテストコードを拡張してください。
 * 「include」ディレクトリの「behavior_tree.h」と「BehaviorTreeLib」ディレクトリの「BehaviorTreeLib.cpp」を書き替えてテストコードを通るようにしてください。
 * 納得できるところまでできたら、「tpu-game-2021/behavior_tree」のmainブランチにプルリクを出してください
+* よくわからない場合は、何が分からないか（どこまでわかったか）README.mdのどこかに記載してください
 
 # 拡張案
 - Sequence やSelector を完成させる
